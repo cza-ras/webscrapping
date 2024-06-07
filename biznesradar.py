@@ -50,7 +50,7 @@ tabela_ppk = pd.DataFrame({'Nazwa PPK':lista_nazw_ppk,'Aktualna wartość':lista
 #save csv
 now = datetime.now()
 today = now.strftime("%d-%m-%Y")
-adres_pliku = f'webscraping/{today}.csv'
+adres_pliku = f'webscrapping/{today}.csv'
 tabela_ppk.to_csv(adres_pliku, index=False)
 
 
